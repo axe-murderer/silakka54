@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    kata0510_lily58_layout: kata0510_lily58_layout {
+    silakka54_layout: silakka54_layout {
         compatible = "zmk,physical-layout";
         display-name = "Default";
 
