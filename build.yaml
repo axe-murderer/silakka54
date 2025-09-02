@@ -28,3 +28,5 @@ include:
   - board: nrf52840dk_nrf52840
     shield: silakka54_right
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: nrf52840dk_nrf52840
+    shield: settings_reset
