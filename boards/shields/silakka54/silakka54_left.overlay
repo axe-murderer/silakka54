@@ -1,4 +1,4 @@
-#include "silakka54.dtsi"
+#include "silakka54-layouts.dtsi"
 
 &kscan0 {
     col-gpios
