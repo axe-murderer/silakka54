@@ -20,16 +20,11 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: lily58_left
+    shield: silakka54_dongle
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
   - board: nrf52840dk_nrf52840
-    shield: lily58_right
-include:
+    shield: silakka54_left
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nrf52840dk_nrf52840
-    shield: lily58_left
-  - board: nrf52840dk_nrf52840
-    shield: lily58_right
-include:
-  - board: nrf52840dk_nrf52840
-    shield: lily58_left
-  - board: nrf52840dk_nrf52840
-    shield: lily58_right
+    shield: silakka54_right
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
